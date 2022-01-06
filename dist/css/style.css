@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope&family=Poppins:wght@300;400;500;600;700;800;900&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    object-fit: cover;
+    transition: all .3s linear;
+}
+
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+    padding: 2rem;
+}
+
+section{
+    padding: 3rem 0;
+}
+.primary-btn {
+    padding: .8rem 1.5rem;
+    text-align: center;
+    color: #fff;
+    background: #319af3;
+    width: 12rem;
+    border-radius: .2rem;
+    margin-bottom: 1.2rem;
+}
+.primary-btn:hover{
+    background: #1abbe4;
+}
+
+.highlight {
+    color: #e72963;
+}
+.container{
+    width: 100%;
+    padding: 2rem 7%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.content-area {
+    width: 60%;
+}
+
+
+.hero-title {
+    position: relative;
+}
+
+.hero-title .horizontal-line {
+    display: inline-block;
+    width: .2rem;
+    height: 9rem;
+    background-image: linear-gradient(#3B3B98, #FC427B);
+    position: absolute;
+    top: 12%;
+    left: 0;
+}
+
+.hero-title h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-left: 1rem;
+    color: #2C3A47;
+}
+
+.content-area p {
+    font-size: 1.1rem;
+    color: #3e3e3e;
+    line-height: 1.7;
+    margin: 2rem 0;
+    padding-right: 5rem;
+    text-align: justify;
+}
+.content-area a {
+    display: block;
+    font-size: 1.1rem;
+}
+.content-area small {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #434343;
+}
+
+.image-area {
+    width: 40%;
+    padding: 1rem;
+    background-image: url(../images/shape-4.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: top right;
+}
+
+/* My Mission Section CSS */
+.mymission .mytitle {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #2C3A47;
+    line-height: 1.7;
+    padding: 2rem 0;
+}
+.mission-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.single-mission img {
+    width: 12rem;
+    padding: 0;
+}
+
+.single-mission {
+    background: rgba(79, 157, 166, 0.1);
+    padding: 2rem 2.3rem;
+    border-radius: 1.5rem;
+}
+.single-mission.vission {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.single-mission.goals {
+    background: #FFF4D6;
+}
+
+.single-mission h4 {
+    font-size: 1.7rem;
+    color: #2C3A47;
+    margin: 1rem 0;
+    font-weight: 700;
+}
+
+.single-mission p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.developer-image{
+    width: 40%;
+    background-image: url(../images/shape-1.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+
+}
+.developer-content{
+    width: 60%;
+    padding-left: 3rem;
+}
+.developer-content h2 {
+    color: #2C3A47;
+    font-size: 2.7rem;
+    line-height: 1.6;
+    margin-bottom: 1.3rem;
+}
+.developer-content p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+.developer-content a {
+    margin-top: 2rem;
+    display: inline-block;
+    width: 18rem;
+    font-size: 1.1rem;
+}
+.community-text{
+    padding-left: 0;
+    padding-right: 3rem;
+}
+.community-image{
+    background-image: url(../images/shape-1.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
+/* Custom Section */
+section.custom-section .container {
+    flex-direction: column;
+}
+.custom-services {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2%;
+}
+.service-title{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #2C3A47;
+    line-height: 1.7;
+    padding: 2rem 0;
+}
+
+.single-service {
+    width: 31%;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #eee;
+    box-shadow: 4px 4px 10px rgb(207 192 233);
+}
+
+.single-service img {
+    width: 100%;
+    background: #ff3b77;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+.single-service h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #2C3A47;
+    margin-top: 1rem;
+    line-height: 1.7;
+}
+
+.single-service p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+
+
+/* Footer Section */
+.footer {
+    background: #0B0D17;
+}
+
+.footer .footer-text {
+    color:  #fff;
+    text-align: center;
+    line-height: 1.7;
+    margin: auto;
+}
+.footer .footer-text h3{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.footer-highlight{
+    color: orangered;
+    font-weight: 700;
+}
+.footer-text small{
+    font-family: 'Manrope', sans-serif;
+    font-size: .8rem;
+    color: gray;
+    font-weight: 400;
+}
